@@ -6,6 +6,6 @@ package com.company.Mammoth;
 public class Test {
     public static void main(String[] args)
     {
-        System.out.print("First Mammoth Born.");
+        System.out.print("First Mammoth Born with ID = "+new AnotherTest().getAnotherTestID());
     }
 }
